@@ -13,12 +13,12 @@ public class Test {
 		map.put(4, "four");
 		
 		
+		for (Map.Entry<Integer, String> entry: map.entrySet()) {
+			
+			System.out.println(entry.getKey() + " : " + entry.getValue());
+		}
 		
-		System.out.println(map);
 		
-		map.put(3, "три");
-		
-		System.out.println(map.get(2));
 	}
 	
 }
